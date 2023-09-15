@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/wave-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  overflow-y: hidden;
+}
+
+.container {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.input-container {
+  margin-top: 20px;
+  padding: 10px 0px;
+  gap: 4px;
+
+  align-items: center;
+}
+
+input {
+  padding: 6px;
+  font-size: large;
+}
+
+#convert {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  margin-top: 4px;
+  background-color: transparent;
+}
+
+.options {
+  padding: 10px 0px;
+  gap: 20px;
+}
+
+select {
+  width: 80px;
+  height: 40px;
+  font-size: medium;
+  text-align: center;
+}
+
+.switch-container {
+  width: 40px;
+  height: 40px;
+  border: 2px solid burlywood;
+  border-radius: 50%;
+  background-color: #5a5a5a;
+
+  align-items: center;
+}
+
+#switch {
+  padding: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: larger;
+}
+
+p {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+p,
+#switch {
+  color: white;
+}
+
+.input-container,
+.spinner-gear {
+  user-select: none;
+}
+select,
+input {
+  border-radius: 6px;
+}
+
+select,
+button {
+  cursor: pointer;
+}
+
+.flex-justify {
+  display: flex;
+  justify-content: center;
+}

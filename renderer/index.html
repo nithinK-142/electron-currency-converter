@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/gear.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+
+        <div class="input-container flex-justify">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <button id="convert"><img src="./img/retweet-.png" alt="convert" id="convertImg"></button>
+        </div>
+
+        <div class="options flex-justify">
+            <select id="fromCurrency"></select>
+
+            <div class="switch-container flex-justify">
+                <button id="switch">&#8646;</button>
+            </div>
+
+            <select id="toCurrency"></select>
+        </div>
+
+        <div class="loader">
+            <div class="spinner-gear">
+                <div class="gear">
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="./js/options.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

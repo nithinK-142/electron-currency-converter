@@ -1,1 +1,1 @@
-# electron-currency-converter
+# Currency Converter
