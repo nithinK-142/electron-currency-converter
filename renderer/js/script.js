@@ -13,8 +13,8 @@ const convertCurrency = async () => {
   const to = toCurrency.value;
   const inputAmount = amount.value.trim();
 
-  if (inputAmount === "") {
-    result.innerText = "Please enter a valid amount.";
+  if (inputAmount === "" || inputAmount <= 0) {
+    result.innerText = inputAmount === "" ? "Please enter an amount." : "Please enter an amount greater than 0.";
     return;
   }
 
