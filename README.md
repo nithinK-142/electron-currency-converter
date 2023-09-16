@@ -47,7 +47,7 @@ npm start
 
 </br>
 
-##Screenshots
+## Screenshots
 
 ![Screenshot-1](https://github.com/nithinK-142/electron-currency-converter/assets/60612488/ab12d2b7-a904-4440-93f6-c54721d5b949)
 
